@@ -1,0 +1,15 @@
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/jjs/git/JScar/install/_setup_util.py
+-- Installing: /home/jjs/git/JScar/install/env.sh
+-- Installing: /home/jjs/git/JScar/install/setup.bash
+-- Installing: /home/jjs/git/JScar/install/local_setup.bash
+-- Installing: /home/jjs/git/JScar/install/setup.sh
+-- Installing: /home/jjs/git/JScar/install/local_setup.sh
+-- Installing: /home/jjs/git/JScar/install/setup.zsh
+-- Installing: /home/jjs/git/JScar/install/local_setup.zsh
+-- Installing: /home/jjs/git/JScar/install/.rosinstall
+-- Installing: /home/jjs/git/JScar/install/lib/pkgconfig/catkin_tools_prebuild.pc
+-- Installing: /home/jjs/git/JScar/install/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+-- Installing: /home/jjs/git/JScar/install/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+-- Installing: /home/jjs/git/JScar/install/share/catkin_tools_prebuild/package.xml

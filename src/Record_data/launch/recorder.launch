@@ -1,0 +1,3 @@
+<launch>
+     <node pkg="Record_data" type="recorder.py" name="recorder_node" output="screen"/>
+</launch>

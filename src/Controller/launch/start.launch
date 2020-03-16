@@ -1,0 +1,26 @@
+<launch>
+
+ <!-- Set Parameter Sever -->
+ <rosparam  file="$(find Controller)/cfg/paths.yaml" command="load"/>
+
+ <!-- Joy node -->
+  <node respawn="true" pkg="joy" type="joy_node" name="jetson_joy" >
+    <param name="dev" type="string" value="/dev/input/js0" />
+    <param name="deadzone" value="0.12" />
+  </node>
+
+ <!-- Recorder Node -->
+  <node pkg="Record_data" name="recorder" type="recorder_start.py" output="screen"> 
+  </node>
+
+ <!-- Pilot Node -->
+  <node pkg="Controller" name="autonomous_controller" type="controller.py" output="screen"/>
+
+  <!-- Perception Node -->
+  <!-- <param name="scale_linear" value="0.5" type="double"/>
+  <param name="scale_angular" value="1.0" type="double"/>
+  <param name="axis_linear" value="3" type="int"/>
+  <param name="axis_angular" value="0" type="int"/>
+
+  <node pkg="controller" type="controller_node" name="jetson_teleop"/> -->
+</launch>

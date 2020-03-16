@@ -1,0 +1,2 @@
+Controller:Record_data:Vision/ros_astra_camera
+-DCATKIN_DEVEL_PREFIX=/home/jjs/git/JScar/devel -DCMAKE_INSTALL_PREFIX=/home/jjs/git/JScar/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="Controller" type="drive.py" name="CarController_sub" output="screen">
+  </node>
+  
+  <node pkg="Controller" type="controller.py" name="CarController_pub" output="screen">
+  </node>
+  
+</launch>

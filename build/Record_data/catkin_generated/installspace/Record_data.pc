@@ -1,0 +1,8 @@
+prefix=/home/jjs/git/JScar/install
+
+Name: Record_data
+Description: Description of Record_data
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
